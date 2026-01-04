@@ -18,7 +18,7 @@ Aquí puedes ver las pantallas principales que ya están implementadas. El flujo
 | ![Login](interfaces_ss/Screen_LoginNutri.png) | **Login** — Inicio de sesión con JWT automático |
 | ![Professional Home](interfaces_ss/Screen_Nutri_Home.png) | **Professional Home** — Dashboard para nutricionistas con tabs (Pacientes, Calendario, etc.) |
 | ![Patient List](interfaces_ss/Screen_Patients_Nutri.png) | **Patient List** — Listado de pacientes con búsqueda y botón agregar |
-| ![Patient List](interfaces_ss/Screen_AddPatient_Nutri.png) | **Add Patient** — Agregar Paciente, ingresar datos y guardar |
+| ![Patient Add](interfaces_ss/Screen_AddPatient_Nutri.png) | **Add Patient** — Agregar Paciente, ingresar datos y guardar |
 | ![Profile](interfaces_ss/Screen_Profile_Nutri.png) | **Professional Profile** — Perfil del profesional con datos y especialidades |
 
 ---
