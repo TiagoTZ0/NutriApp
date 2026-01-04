@@ -12,7 +12,7 @@ Aquí puedes ver las pantallas principales que ya están implementadas. El flujo
 |----------|-------------|
 | ![Welcome](interfaces_ss/Welcome_Screen.png) | **Welcome Screen** — Bienvenida inicial con acceso rápido a login/registro |
 | ![Register](interfaces_ss/Screen_Register.png) | **Register** — Registro de usuario (email, password, nombre, rol) |
-| ![Register Nutri](interfaces_ss/Screen_RegisterNutri.png) | **Register Professional** — Registro específico para nutricionistas con campos de especialidad |
+| ![Register Nutri](interfaces_ss/Screen_RegisterNutri.png) | **Register Professional** — Registro específico para nutricionistas |
 | ![Terms](interfaces_ss/Term&Serv_Screen.png) | **Terms & Services** — Aceptación de términos y condiciones |
 | ![Login](interfaces_ss/Screen_LoginNutri.png) | **Login** — Inicio de sesión con JWT automático |
 | ![Professional Home](interfaces_ss/Screen_Nutri_Home.png) | **Professional Home** — Dashboard para nutricionistas con tabs (Pacientes, Calendario, etc.) |
