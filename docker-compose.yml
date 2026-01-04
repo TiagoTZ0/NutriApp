@@ -1,0 +1,29 @@
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${SQL_DATABASE:-nutriapp_db}
+      POSTGRES_USER: ${SQL_USER:-nutriapp_user}
+      POSTGRES_PASSWORD: ${SQL_PASSWORD:-change-me}
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./nutri-backend
+      dockerfile: Dockerfile
+    command: sh -c "./scripts/entrypoint.sh python manage.py runserver 0.0.0.0:8000"
+    env_file:
+      - ./nutri-backend/.env.example
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+
+volumes:
+  db_data:
+    driver: local

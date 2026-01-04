@@ -1,0 +1,5 @@
+# Forzar siempre saltos de línea tipo Linux (LF)
+# Esto es OBLIGATORIO para Docker y Scripts
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf

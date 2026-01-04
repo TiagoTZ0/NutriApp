@@ -1,0 +1,39 @@
+# Root .gitignore for NutriApp monorepo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.env.*
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo / React Native
+.expo/
+web-build/
+/dist/
+ios/
+android/
+.expo-shared/
+
+# VSCode
+.vscode/
+
+# Private notes (not for GitHub)
+/private/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Misc
+.idea/
+*.swp

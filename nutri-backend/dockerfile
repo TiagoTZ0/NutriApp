@@ -1,0 +1,27 @@
+FROM python:3.11-slim-bullseye
+
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONUNBUFFERED 1
+
+WORKDIR /app
+
+# Instalamos netcat (nc) para verificar que la BD esté lista
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends \
+       gcc \
+       libpq-dev \
+       netcat \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+COPY ./requirements /app/requirements
+RUN pip install --upgrade pip
+RUN pip install -r requirements/base.txt
+
+COPY ./scripts/entrypoint.sh /entrypoint.sh
+# Damos permisos de ejecución al script
+RUN chmod +x /entrypoint.sh
+
+COPY . /app
+
+ENTRYPOINT ["/entrypoint.sh"]

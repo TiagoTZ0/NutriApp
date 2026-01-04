@@ -1,0 +1,1 @@
+export type { IPatient as Patient } from '../../domain/models/IPatient';
