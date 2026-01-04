@@ -1,6 +1,6 @@
 # NutriApp
 
-Bienvenido a NutriApp — una solución completa para la gestión nutricional que incluye un backend en Django y una app móvil construida con Expo + React Native (TypeScript).
+Bienvenido a NutriApp — una solución para la gestión nutricional que incluye un backend en Django y una app móvil construida con Expo + React Native (TypeScript).
 
 ---
 
