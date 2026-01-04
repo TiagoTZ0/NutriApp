@@ -12,8 +12,6 @@ Aquí puedes ver las pantallas principales que ya están implementadas. El flujo
 |----------|-------------|
 | ![Landing](interfaces_ss/Landing_Screen.png) | **Landing Screen** — Pantalla Inicial de NutriApp |
 | ![Welcome](interfaces_ss/Welcome_Screen.png) | **Welcome Screen** — Bienvenida con acceso rápido a login/registro |
-| ![Register](interfaces_ss/Screen_Register.png) | **Register** — Registro de usuario (email, password, nombre, rol) |
-| ![Welcome](interfaces_ss/Welcome_Screen.png) | **Welcome Screen** — Bienvenida inicial con acceso rápido a login/registro |
 | ![Register](interfaces_ss/Screen_Register.png) | **Register** — Registro de usuario seleccionar Rol |
 | ![Register Nutri](interfaces_ss/Screen_RegisterNutri.png) | **Register Professional** — Registro específico para nutricionistas |
 | ![Terms](interfaces_ss/Term&Serv_Screen.png) | **Terms & Services** — Ver términos y condiciones |
